@@ -8,9 +8,9 @@ LDFLAGS =
 # Executable name
 TARGET = disp
 
-# Source files
-MAIN_SRC = /home/lfrisoli/MuST/project/testSupercell.f90
-MODULE_SRC = /home/lfrisoli/MuST/MST/src/SupercellModule.f90
+# Source files, assuming your MuST directory is installed in your home directory.
+MAIN_SRC = ~/MuST/project/testSupercell.f90
+MODULE_SRC = ~/MuST/MST/src/SupercellModule.f90
 
 # Object files (dependencies that are pre-compiled libraries)
 OBJ = KindParamModule.o \
